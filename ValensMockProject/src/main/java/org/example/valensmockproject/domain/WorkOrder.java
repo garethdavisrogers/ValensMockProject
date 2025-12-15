@@ -4,7 +4,10 @@ import jakarta.persistence.*;
 
 import java.time.Instant;
 import java.util.UUID;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter @Setter
 @Entity
 public class WorkOrder {
     @Id
